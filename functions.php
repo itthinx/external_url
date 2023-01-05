@@ -60,7 +60,7 @@ class Custom_Field_External_Url {
 						$external_url_label = self::DEFAULT_LABEL;
 					}
 					$output .= sprintf(
-						'<a class="button" href="%s">%s</a>',
+						'<a class="button external-url" href="%s">%s</a>',
 						esc_url( $external_url ),
 						esc_html( trim( $external_url_label ) )
 					);
